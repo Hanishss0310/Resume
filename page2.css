@@ -1,0 +1,18 @@
+
+/* Certifications css */
+.academic-project{
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.project-description {
+    position: relative;
+    padding-right: 200px;
+}
+
+.project-description .date {
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

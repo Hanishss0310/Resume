@@ -1,0 +1,72 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.profile-image img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+/* <SUMMARY CSS> */
+
+.summary-container{
+    margin-top: 5px;
+    border: 1px solid black;
+}
+.summary-p{
+    padding-left: 5px;
+}
+
+/* <EDUCATION CSS> */
+
+.education-conatiner{
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+
+/* <PROJECT CSS> */
+.project-p {
+    position: relative;
+    padding-right: 200px;
+}
+
+.project-p .date {
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.projects-container{
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+/* Academic projects */
+.academic-project{
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.project-description {
+    position: relative;
+    padding-right: 200px;
+}
+
+.project-description .date {
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
